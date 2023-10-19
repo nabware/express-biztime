@@ -1,0 +1,31 @@
+_id: req_9c3a2af1ab31469095ec4a651f0e51af
+type: Request
+parentId: fld_8a4e140d897d4992b334ed3dfcd5263b
+modified: 1697756262927
+created: 1697751982633
+url: "{{ _.BASE_URL }}/companies/asfasfasf"
+name: PUT Update non existing company
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "new microsoft",
+    	"description": "the reformed microsoft company"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1697756209329.5625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

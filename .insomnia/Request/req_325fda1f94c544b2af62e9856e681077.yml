@@ -1,0 +1,23 @@
+_id: req_325fda1f94c544b2af62e9856e681077
+type: Request
+parentId: fld_8a4e140d897d4992b334ed3dfcd5263b
+modified: 1697756240629
+created: 1697740788256
+url: "{{ _.BASE_URL }}/companies"
+name: GET All companies
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1697756209428
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

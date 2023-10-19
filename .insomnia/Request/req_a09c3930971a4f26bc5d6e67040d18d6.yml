@@ -1,0 +1,31 @@
+_id: req_a09c3930971a4f26bc5d6e67040d18d6
+type: Request
+parentId: fld_db2963a2885e449c96af00972656fd12
+modified: 1697757961148
+created: 1697756000258
+url: "{{ _.BASE_URL }}/invoices"
+name: POST Create invoice
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"comp_code": "apple",
+    	"amt": 1000
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1697756000258
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

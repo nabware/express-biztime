@@ -1,0 +1,23 @@
+_id: req_bac276a0011f4f3daadc18376e04f00c
+type: Request
+parentId: fld_db2963a2885e449c96af00972656fd12
+modified: 1697756625283
+created: 1697756616224
+url: "{{ _.BASE_URL }}/invoices/2"
+name: DELETE invoice
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1697697015480
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,31 @@
+_id: req_da3b612754634361b96226af3854523f
+type: Request
+parentId: fld_8a4e140d897d4992b334ed3dfcd5263b
+modified: 1697756235164
+created: 1697752023899
+url: "{{ _.BASE_URL }}/companies/msft"
+name: PUT Update company with existing name
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "IBM",
+    	"description": "the reformed microsoft company"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1697756209328
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

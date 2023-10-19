@@ -1,0 +1,23 @@
+_id: req_b42cde4fc6bf4658b9701a19bebbf6a3
+type: Request
+parentId: fld_db2963a2885e449c96af00972656fd12
+modified: 1697757978031
+created: 1697755071206
+url: "{{ _.BASE_URL }}/invoices/2"
+name: GET invoice by id
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1697756000308
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

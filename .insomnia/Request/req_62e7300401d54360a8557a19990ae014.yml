@@ -1,0 +1,30 @@
+_id: req_62e7300401d54360a8557a19990ae014
+type: Request
+parentId: fld_db2963a2885e449c96af00972656fd12
+modified: 1697756534103
+created: 1697756480067
+url: "{{ _.BASE_URL }}/invoices/2"
+name: PUT update invoice by id
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"amt": 42000
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1697716334929
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

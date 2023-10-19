@@ -1,0 +1,23 @@
+_id: req_64eb44b01d014ed4934a888d344fe3c2
+type: Request
+parentId: fld_8a4e140d897d4992b334ed3dfcd5263b
+modified: 1697758032130
+created: 1697741243387
+url: "{{ _.BASE_URL }}/companies/apple"
+name: GET Company by code
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1697756209378
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,23 @@
+_id: req_b471f0f0894244dc8b6d112adc8eed3f
+type: Request
+parentId: fld_8a4e140d897d4992b334ed3dfcd5263b
+modified: 1697756245233
+created: 1697741385946
+url: "{{ _.BASE_URL }}/companies/asdasd"
+name: GET Not found Company by code
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1697756209353
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

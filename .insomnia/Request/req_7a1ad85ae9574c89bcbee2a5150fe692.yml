@@ -1,0 +1,30 @@
+_id: req_7a1ad85ae9574c89bcbee2a5150fe692
+type: Request
+parentId: fld_8a4e140d897d4992b334ed3dfcd5263b
+modified: 1697756256166
+created: 1697743918111
+url: "{{ _.BASE_URL }}/companies"
+name: Create error new Company
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"code": "msft"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1697756209334.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

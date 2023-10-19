@@ -1,0 +1,23 @@
+_id: req_60ca66d925604e0e864ea48a15624dc2
+type: Request
+parentId: fld_8a4e140d897d4992b334ed3dfcd5263b
+modified: 1697756238351
+created: 1697751434625
+url: "{{ _.BASE_URL }}/companies/msft"
+name: DELETE Company
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1697756208428
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

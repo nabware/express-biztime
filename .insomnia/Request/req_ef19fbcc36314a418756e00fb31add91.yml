@@ -1,0 +1,32 @@
+_id: req_ef19fbcc36314a418756e00fb31add91
+type: Request
+parentId: fld_8a4e140d897d4992b334ed3dfcd5263b
+modified: 1697756254659
+created: 1697743507048
+url: "{{ _.BASE_URL }}/companies"
+name: Create new Company
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"code": "msft",
+    	"name": "Microsoft",
+    	"description": "The Microsoft company"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1697756209340.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
