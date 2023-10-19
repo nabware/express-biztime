@@ -2,11 +2,13 @@
 
 const express = require("express");
 const { NotFoundError } = require("./expressError");
+const companyRoutes = require("./routes/companies");
 
 const app = express();
 
 app.use(express.json());
 
+app.use("/companies", companyRoutes);
 
 /** 404 handler: matches unmatched routes; raises NotFoundError. */
 app.use(function (req, res, next) {
@@ -18,6 +20,8 @@ app.use(function (err, req, res, next) {
   const status = err.status || 500;
   const message = err.message;
   if (process.env.NODE_ENV !== "test") console.error(status, err.stack);
+  console.log(status)
+  console.log(message)
   return res.status(status).json({ error: { message, status } });
 });
 
