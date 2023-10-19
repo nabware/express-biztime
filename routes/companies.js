@@ -17,9 +17,18 @@ router.get("", async function (req, res) {
   return res.json({ companies });
 });
 
-/** GET /companies/:code: Return JSON of company {company: {code, name, description}} */
-router.get("/:code", getCompany, function (req, res) {
+/** GET /companies/:code:
+ * Returns JSON: {company: {code, name, description, invoices: [id, ...]}} */
+router.get("/:code", getCompany, async function (req, res) {
   const company = res.locals.company;
+
+  const results = await db.query(
+    `SELECT id
+      FROM invoices
+      WHERE comp_code = $1`,
+     [req.params.code]);
+
+  company.invoices = results.rows.map(invoice => invoice.id);
 
   return res.json({ company });
 });
