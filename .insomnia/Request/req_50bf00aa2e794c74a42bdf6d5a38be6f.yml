@@ -1,0 +1,23 @@
+_id: req_50bf00aa2e794c74a42bdf6d5a38be6f
+type: Request
+parentId: wrk_51ea6c7c65b3433580a5adac2e8a03cf
+modified: 1697759292744
+created: 1697759278366
+url: "{{ _.BASE_URL }}"
+name: PUSH TEST
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1697759278366
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
